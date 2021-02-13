@@ -64,8 +64,8 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   padding: 3rem 5rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
 }
 
 @media (max-width: 550px){
