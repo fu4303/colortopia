@@ -70,7 +70,9 @@ h1 {
 
 @media (max-width: 550px){
   #grid{
-     padding: 2px;
+     padding: 1px;
+     margin-left: 3%;
+  margin-right: 3%;
   }
 }
 
