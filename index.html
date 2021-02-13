@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>Colortopia | The easiest way to generate and find colors</title>
+    <link rel="icon" href="https://i.ibb.co/TRZgtBK/colortopia-logo.png" />
+    <meta name="description" content="Instantly generate, find, and copy colors that you like in the beautiful land of Colortopia."/>
+    <meta name="keywords" itemprop="keywords" content="color scheme, scheme color, color schemes, colortopia, color theme, color palette, color themes, color palettes, color combinations, color, colors, palettes, hex color wheel, pastel color palette, color wheel, color combination, color pallete, color names, web color schemes, color wheel generator, extract color palette from image, random color palette generator, color schemes generator, ui color palette generator, pretty colors, vintage color, color palette from image">
+
+    <meta name="twitter:description" content="Instantly generate, find, and copy colors that you like in the beautiful land of Colortopia."/>
+    <meta name="twitter:title" content="Colortopia | The easiest way to generate and find colors"/>
+    <meta name="twitter:image" content="https://bored.lol/assets/webmoji-twitter-card.jpg"/>
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="./static/palette.css" />
+    <link rel="stylesheet" href="./static/notification.css" />
+    <link rel="stylesheet" href="./static/navbar.css" />
+    <link rel="stylesheet" href="./static/hero.css" />
+    <link rel="stylesheet" href="./static/back-to-top.css" />
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          <a href="/"><img alt="Colortopia Logo" id="logo" style="width: 33px;" src="https://i.ibb.co/TRZgtBK/colortopia-logo.png"></a>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+        <a href="https://twitter.com/colortopia" target="_blank">About</a>
+        <a href="https://github.com/heybereket/colortopia" target="_blank">Github</a>
+        <a href="https://twitter.com/colortopia" target="_blank">Twitter</a>
+      </div>
+    </div>
+  
+ 
+  <div class="container">
+    <section class="hero">
+      <div class="hero-info">
+        <span class="hero-subtitle">
+
+        </span>
+        <h1 class="hero-title">
+          Explore beautiful <br> color schemes
+        </h1>
+        <small class="hero-description">
+          Find and generate color schemes, <br> for free. Click to copy :)
+        </small>
+        
+        <div class="hero-buttons">
+          <a class="button button-primery" onclick="ColorSectionFunction()">
+            Explore
+          </a>
+          <a href="https://twitter.com/colortopia" target="_blank" class="button button-o">
+            Twitter
+          </a>
+        </div>
+      </div>
+      <span style="color: gray; font-size: 12px;">MIT License • Version 1.0</span>
+    </section>
+  </div>
+
+<div id="colors">
+    <div class="colors" id="grid"></div>
+  </div>
+
+  <label>
+    .
+    <textarea style="caret-color: transparent;" id="copy-buffer"></textarea>
+  </label>
+
+  
+  <span style="margin-bottom: 60px;" onclick="topFunction()" id="top-button" title="Go to top"><i class="fas fa-chevron-up fa-lg"></i></span>
+
+    <div class="footer">
+        Crafted with 💜 by <a rel="noopener" aria-label="Bereket's Twitter" href="https://twitter.com/heybereket" target="_blank"><strong>Bereket Semagn</strong></a>
+      </div>
+      
+
+    <script src="./build/home.js"></script>
+    <script src="./build/notification.js"></script>
+    <script src="./build/back-to-top.js"></script>
+  </body>
+</html>

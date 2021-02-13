@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.container{
+    width: 100%;
+    max-width: 1850px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+  .hero{
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  @media (max-width: 550px){
+    .container {
+       margin-top: -5%;
+    }
+  }
+  
+  .hero-subtitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  
+  .hero-title{
+    font-size: 60px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .hero-description{
+    font-size: 18px;
+    color: #6a696b;
+    width: 10px;
+  }
+  .hero-social{
+    margin-top: 30px;
+  }
+  
+  .social{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 41px;
+  }
+  
+  .vk-bg{
+    background-color: #56acef;
+  }
+  .facebook-bg{
+    background-color: #3a5898;
+  }
+  .instagram-bg{
+    background-color: #13578a;
+  }
+  .behance-bg{
+    background-color: #1869ff;
+  }
+  
+  .hero-buttons{
+    margin-top: 40px;
+  }
+  .button{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
+    text-align: center;
+    text-decoration: none;
+    background-color: #2b2a2c;
+    border-radius: 10px;
+    padding: 15px 34px;
+    height: 50px;
+    
+  }
+  .button-primery{
+    color: #fff;
+    margin-right: 17px;
+    margin-bottom: 10px;
+  }
+  .button-o{
+    background-color: #fff;
+    color: #6a696b;
+    border: 1px solid #dee2e6;
+    transition: all .15s ease;
+    
+  }
+
+  .button-o:hover {
+    border: 1px solid #ced7da;
+    transition: all .15s ease;
+  }
