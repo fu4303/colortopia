@@ -1,2 +1,2 @@
-# bored
+
 # colortopia
