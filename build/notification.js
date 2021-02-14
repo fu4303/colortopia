@@ -9,7 +9,7 @@ const btn = document.querySelector('#grid')
             let h3 = document.createElement('h3')
             let p = document.createElement('p')
             h3.innerHTML = 'Successfully Copied! 👍🏻🚀'
-            p.innerHTML = 'Whoohoo! We hope you enjoy the beautiful color. <br> <i>Check us out on Twitter! <a style="color: #fff; text-decoration: none;" href="https://twitter.com/colortopia" target="_blank">@colortopia</a>'
+            p.innerHTML = 'Woohoo! We hope you enjoy the beautiful color. <br> <i>Check us out on Twitter! <a style="color: #fff; text-decoration: none;" href="https://twitter.com/colortopia" target="_blank">@colortopia</a>'
             noti.className = 'notification'
             noti.appendChild(h3)
             noti.appendChild(p)
