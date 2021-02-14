@@ -95,6 +95,14 @@
   }
 
   .button-o:hover {
-    border: 1px solid #ced7da;
+    border: 1px solid #adb5bd;
     transition: all .15s ease;
+  }
+
+  #about {
+    width: 80%;
+    max-width: 1850px;
+    margin-left: 9%;
+    margin-right: auto;
+    margin-top: 50px;
   }

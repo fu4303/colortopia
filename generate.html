@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="./static/navbar.css" />
     <link rel="stylesheet" href="./static/hero.css" />
     <link rel="stylesheet" href="./static/back-to-top.css" />
+    <link rel="stylesheet" href="./static/generate.css" />
 
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -45,51 +47,25 @@
       </div>
     </div>
   
-  <div class="container">
-    <section class="hero">
-      <div class="hero-info">
-        <span class="hero-subtitle">
 
-        </span>
-        <h1 class="hero-title">
-          <span id="word">Explore</span> <span id="underline" data-text="beautiful">beautiful</span> <br> color schemes
-        </h1>
-        <small class="hero-description">
-          Find and generate color schemes, <br> for free. Click to copy :)
-        </small>
-        
-        <div class="hero-buttons">
-          <a class="button button-primery" onclick="ColorSectionFunction()">
-            Explore
-          </a>
-          <a href="./generate" target="_blank" class="button button-o">
-            Generate
-          </a>
-        </div>
-      </div>
-      <span style="color: gray; font-size: 12px;">MIT License • Version 1.0</span>
-    </section>
+    
+<div class="main">
+    <div class="col"><a class="col__btn"><i class="fas fa-redo"></i> &nbsp; Refresh</a><span class="col__title"></span></div>
+    <div class="col"><a class="col__btn"><i class="fas fa-redo"></i> &nbsp; Refresh</a><span class="col__title"></span></div>
+    <div class="col"><a class="col__btn"><i class="fas fa-redo"></i> &nbsp; Refresh</a><span class="col__title"></span></div>
+    <div class="col"><a class="col__btn"><i class="fas fa-redo"></i> &nbsp; Refresh</a><span class="col__title"></span></div>
+    <div class="col"><a class="col__btn"><i class="fas fa-redo"></i> &nbsp; Refresh</a><span class="col__title"></span></div>
   </div>
-
-  
-<div id="colors">
-    <div class="colors" id="grid"></div>
-  </div>
-
-  <label>
-    .
-    <textarea style="caret-color: transparent;" id="copy-buffer"></textarea>
-  </label>
 
   
   <span style="margin-bottom: 60px;" onclick="topFunction()" id="top-button" title="Go to top"><i class="fas fa-chevron-up fa-lg"></i></span>
 
-    <div class="footer">
-        Crafted with 💜 by <a rel="noopener" aria-label="Bereket's Twitter" href="https://twitter.com/heybereket" target="_blank"><strong>Bereket Semagn</strong></a>
-      </div>
+    
+
+      
 
     <script src="./build/home.js"></script>
-    <script src="./build/notification.js"></script>
+    <script src="./build/generate.js"></script>
     <script src="./build/back-to-top.js"></script>
   </body>
 </html>
