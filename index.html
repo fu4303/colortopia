@@ -34,9 +34,7 @@
       </div>
       <div class="nav-btn">
         <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span>menu</span>
         </label>
       </div>
       
@@ -47,26 +45,6 @@
       </div>
     </div>
   
-    <style>
-      
-      #underline {
-        margin: auto;
-        background-image: url('data:image/svg+xml,%3Csvg   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 6 4" width="12" height="10"%3E%3Cpath fill="none" stroke="royalblue" stroke-width="1" stroke-linecap="square" d="M0 1 A 2 2 0 0 1 3 1 M3 1 A 2 2 0 0 0 6 1"/%3E%3C/svg%3E');
-        background-repeat: repeat-x;
-        background-position: bottom left;
-        background-size: 0.3em auto;
-        animation: scrollBackground linear infinite 0.5s;
-      }
-      
-      @keyframes scrollBackground {
-        from {
-          background-position: 0 100%;
-        }
-        to {
-          background-position: 0.3em 100%;
-        }
-      }
-    </style>
   <div class="container">
     <section class="hero">
       <div class="hero-info">
@@ -93,6 +71,7 @@
     </section>
   </div>
 
+  
 <div id="colors">
     <div class="colors" id="grid"></div>
   </div>
@@ -109,37 +88,6 @@
         Crafted with 💜 by <a rel="noopener" aria-label="Bereket's Twitter" href="https://twitter.com/heybereket" target="_blank"><strong>Bereket Semagn</strong></a>
       </div>
 
-      <script>
-        const typing_word = document.querySelector('#word'),
-words = ['Generate', 'Find', 'Use', 'Explore'];
-let letterIndex = 0,
-wordIndex = 0;
-
-initTyping();
-
-function initTyping() {
-  if (wordIndex < words.length) {
-    window.setTimeout(() => {
-      typing_word.innerHTML = '';
-      letterIndex = 0;
-      printLetters(words[wordIndex]);
-    }, 2500);
-  }
-}
-
-function printLetters(word) {
-  window.setTimeout(() => {
-    if (letterIndex < word.length) {
-      typing_word.innerHTML += word[letterIndex];
-      letterIndex += 1;
-      printLetters(word);
-    } else {
-      wordIndex += 1;
-      initTyping();
-    }
-  }, Math.floor(Math.random() * (250 - 50 + 1) + 50));
-}
-      </script> 
       
 
     <script src="./build/home.js"></script>

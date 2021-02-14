@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;500&display=swap');
 
 .container{
-    width: 100%;
+    width: 80%;
     max-width: 1850px;
     margin-left: 9%;
     margin-right: auto;
+    border-bottom: 2px solid #eee;
   }
   .hero{
     padding-top: 112px;
@@ -18,14 +20,15 @@
   }
   
   .hero-subtitle{
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     font-size: 15px;
     font-weight: normal;
   }
   
   .hero-title{
     font-size: 60px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-top: 0px;
     margin-bottom: 5px;
   }

@@ -67,9 +67,8 @@
     }
     .nav > .nav-btn > label > span {
       display: block;
-      width: 25px;
       height: 10px;
-      border-top: 2px solid #eee;
+      color: #495057;
     }
     .nav > .nav-links {
       position: absolute;
